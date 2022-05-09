@@ -44,7 +44,7 @@ export async function saveSubscription(
           "ref",
           q.Get(
             q.Match(
-              q.Index('subscription_bt_id'),
+              q.Index('subscription_by_id'),
               subscriptionId,
             )
           )
