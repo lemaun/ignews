@@ -39,6 +39,7 @@
     "jest": "^28.1.2",
     "jest-dom": "^4.0.0",
     "jest-environment-jsdom": "^28.1.2",
+    "jest-mock": "^28.1.1",
     "typescript": "^4.5.4"
   }
 }
