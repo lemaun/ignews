@@ -47,6 +47,7 @@ describe('Post Page', () => {
 
     getPrismicClientMocked.mockReturnValueOnce({
         getByUID: jest.fn().mockResolvedValueOnce({
+          uid: 'fake-slug',
           data: {
               title: [{type: 'heading', text:'Fake title 1'}],
               content: [{type: 'paragraph', text: 'Fake excerpt 1'}],
